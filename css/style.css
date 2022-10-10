@@ -1,0 +1,97 @@
+.font  {
+    font-size: 2rem;
+}
+
+#title {
+    padding-bottom: 3rem;
+}
+
+#search-word {
+    margin-right: 4rem;
+    display: flex;
+}
+
+#search-level {
+    display: flex;
+}
+
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#header-title {
+    color: white;
+    font-size: 4rem;
+}
+
+#search-input-word {
+    margin-right: 2rem;
+    width: calc(25vw);
+    border-radius: 6px;
+}
+
+#search-input-level {
+    margin-right: 2rem;
+    width: calc(10vw);
+    border-radius: 6px;
+}
+
+#voca-table {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+#voca-th-num {
+    width: 5%;
+}
+
+#voca-th-level {
+    width: 10%;
+}
+
+#voca-th-word {
+    width: 15%;
+}
+
+#voca-th-mean {
+    width: 25%;
+}
+
+#voca-th-menu{
+    width: 17%;
+}
+
+#thumbnail {
+    margin-top: calc(15vh);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-bottom: calc(10vh);
+}
+
+#thumbnail-detail {
+    margin-top: calc(15vh);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-bottom: calc(14vh);
+}
+
+#content {
+    padding-bottom: calc(50vh);
+}
+
+#add-input {
+    width: calc(30vw);
+    margin: 5rem 1rem;
+}
+
+#detail{
+    width: calc(25vw);
+}
+
+#btn {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-right: 1rem;
+}
