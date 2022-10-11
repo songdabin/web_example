@@ -1,14 +1,10 @@
 # web_example
 
 ## Preview
-- 전체 단어 조회 페이지
-<img width="1440" alt="스크린샷 2022-10-10 오후 3 43 31" src="https://user-images.githubusercontent.com/82192898/194810697-f3564e92-55a3-439a-933d-2f04aaf754b2.png">
 
-- 단어 추가 페이지
-<img width="1440" alt="스크린샷 2022-10-10 오후 3 43 42" src="https://user-images.githubusercontent.com/82192898/194810838-3a6da39a-797c-4060-b9fe-c2ac48d9825b.png">
-
-- 단어 수정 페이지
-<img width="1440" alt="스크린샷 2022-10-10 오후 3 43 54" src="https://user-images.githubusercontent.com/82192898/194810892-e1b30e54-f183-44a5-bde8-74cf1410d869.png">
-
-- 단어 상세 조회 페이지
-<img width="1440" alt="스크린샷 2022-10-10 오후 3 44 04" src="https://user-images.githubusercontent.com/82192898/194810920-1ee3b64c-aea8-41d5-abea-138bdd3f254a.png">
+|-|모바일|데스크탑|
+|------|---|---|
+|전체 조회|<img width="200px" alt="모바일홈" src="https://user-images.githubusercontent.com/82192898/195059250-a7db48d7-5366-4b7e-aefb-590cac04c9f0.png">|<img width="1440" alt="웹 홈" src="https://user-images.githubusercontent.com/82192898/195059310-0575a8fd-c1bc-4f11-945a-991e67804047.png">|
+|단어 추가|<img width="309" alt="모바일 추가" src="https://user-images.githubusercontent.com/82192898/195059269-726ef2bc-aabd-48c6-b357-11239d4451e5.png">|<img width="1440" alt="웹 추가" src="https://user-images.githubusercontent.com/82192898/195059315-b53eec78-c195-46a2-9a5a-9b3416456df2.png">|
+|단어 수정|<img width="307" alt="모바일 수정" src="https://user-images.githubusercontent.com/82192898/195059281-db217575-2391-4091-8f53-0087f50794cf.png">|<img width="1440" alt="웹 수정" src="https://user-images.githubusercontent.com/82192898/195059320-27d213d8-792f-4e6a-8251-d5f15440a03c.png">|
+|상세 조회|<img width="306" alt="모바일 조회" src="https://user-images.githubusercontent.com/82192898/195059295-0d010f91-fc23-4a4e-9e05-8d353eaf8180.png">|<img width="1440" alt="웹 조회" src="https://user-images.githubusercontent.com/82192898/195059327-4de942a2-242a-4057-99e3-a4301bd99478.png">|
