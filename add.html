@@ -19,10 +19,10 @@
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container mt-5 d-flex justify-content-start">
+      <div class="container d-flex justify-content-start">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html" id="header-title"
-            >Vocabulary</a
+            >영어 단어장</a
           >
         </div>
       </div>
@@ -32,24 +32,36 @@
       <div class="thumbnail">
         <div class="caption">
           <h1 class="p-3 display-5">단어 추가</h1>
-          <input
-            id="add-input"
-            type="text"
-            class="form-control form-control-lg"
-            placeholder="단어"
-          />
-          <input
-            id="add-input"
-            type="text"
-            class="form-control form-control-lg"
-            placeholder="레벨"
-          />
-          <input
-            id="add-input"
-            type="text"
-            class="form-control form-control-lg"
-            placeholder="뜻"
-          />
+          <div class="d-flex align-items-center m-5">
+            <h1 class="d-flex display-6" id="width">단어</h1>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="add-input"
+              placeholder="단어"
+            />
+          </div>
+          <div class="d-flex align-items-center m-5">
+            <h1 class="d-flex display-6" id="width">레벨</h1>
+            <select
+              class="form-select form-select-lg"
+              id="add-input"
+              aria-label="level select"
+            >
+              <option selected value="1">Level 1</option>
+              <option value="2">Level 2</option>
+              <option value="3">Level 3</option>
+            </select>
+          </div>
+          <div class="d-flex align-items-center m-5">
+            <h1 class="d-flex display-6" id="width">뜻</h1>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="add-input"
+              placeholder="뜻"
+            />
+          </div>
           <p class="d-flex justify-content-end">
             <a
               href="index.html"
@@ -70,7 +82,10 @@
       </div>
     </div>
 
-    <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+    <footer
+      class="text-center text-lg-start bg-light text-muted navbar-fixed-bottom"
+      id="footer"
+    >
       <!-- Copyright -->
       <div
         class="text-center p-4"

@@ -6,11 +6,21 @@
   padding-bottom: 3rem;
 }
 
+/* mobile ver */
 @media screen and (max-width: 400px) {
+  #width {
+    width: calc(20vw);
+  }
+
+  #level-select {
+    min-width: calc(20vw);
+  }
+
   #top-menu {
     display: flex;
     justify-content: flex-end;
-    margin-right: calc(7vw);
+    margin-top: calc(3vh);
+    margin-right: calc(3vw);
   }
 
   #gap-edit {
@@ -22,8 +32,7 @@
   }
 
   #search {
-    margin-top: calc(2vh);
-    margin-left: calc(7vw);
+    margin-left: calc(23vw);
     display: flex;
     justify-content: flex-start;
   }
@@ -65,7 +74,7 @@
   }
 
   #thumbnail {
-    margin: calc(17.5vh) calc(2vw) calc(17.5vh) calc(2vw);
+    margin: calc(10vh) calc(2vw) calc(10vh) calc(2vw);
     font-size: 1.5rem;
   }
 
@@ -76,7 +85,7 @@
 
   #add-input {
     width: calc(85vw);
-    margin: 5rem 1rem;
+    margin: 3.5rem 1rem;
   }
 
   #header-title {
@@ -84,29 +93,31 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1500px) {
+@media screen and (min-width: 700px) and (max-width: 5000px) {
   #top-menu-desktop {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+  }
+
+  #width {
+    width: calc(8vw);
   }
 
   #search {
     display: flex;
     justify-content: flex-end;
+    margin-right: calc(3vw);
   }
 
   #search-input-word {
-    margin-right: 2rem;
     border-radius: 6px;
   }
 
   #search-input-level {
-    margin-right: 2rem;
     border-radius: 6px;
   }
 
   #search-word {
-    margin-right: 4rem;
     display: flex;
     width: calc(20vw);
   }
@@ -140,7 +151,7 @@
 
   #add-input {
     width: calc(30vw);
-    margin: 5rem 1rem;
+    margin: 2rem 0.5rem;
   }
 }
 
@@ -156,7 +167,7 @@
 
 #header-title {
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #voca-th-check {

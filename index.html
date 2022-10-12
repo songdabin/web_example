@@ -20,52 +20,49 @@
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container mt-5" id="header">
+      <div class="container d-flex justify-content-end" id="header">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html" id="header-title"
-            >Vocabulary</a
+            >영어 단어장</a
           >
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <a href="add.html" class="btn btn-success btn-lg" id="add-btn">
-              단어 추가
-            </a>
-          </form>
         </div>
       </div>
     </nav>
 
     <div class="container">
       <div id="top-menu-desktop">
-        <div id="top-menu">
-          <a href="add.html" class="btn btn-primary btn-lg me-2">단어 추가</a>
-          <a href="edit.html" class="btn btn-primary btn-lg me-2">단어 수정</a>
-          <a href="#" class="btn btn-primary btn-lg">단어 삭제</a>
-        </div>
         <div id="search">
-          <div class="input-group" id="search-word">
+          <div class="input-group me-3" id="search-word">
             <input
               id="search-input-word"
               type="text"
               class="form-control form-control-lg"
               placeholder="Word"
             />
-            <a class="btn btn-primary btn-lg rounded" href="#" role="button"
+            <a class="btn btn-success btn-lg rounded" href="#" role="button"
               >단어 검색</a
             >
           </div>
           <div class="input-group" id="search-level">
-            <input
-              id="search-input-level"
-              type="text"
-              class="form-control form-control-lg"
-              placeholder="Level"
-            />
-            <a class="btn btn-primary btn-lg rounded" href="#" role="button"
+            <select
+              class="form-select form-select-lg"
+              aria-label="level select"
+              id="level-select"
+            >
+              <option selected value="1">Level 1</option>
+              <option value="2">Level 2</option>
+              <option value="3">Level 3</option>
+            </select>
+            <!--                    <input id="search-input-level" type="text" class="form-control form-control-lg" placeholder="Level">-->
+            <a class="btn btn-success btn-lg rounded" href="#" role="button"
               >레벨 검색</a
             >
           </div>
+        </div>
+        <div id="top-menu">
+          <a href="edit.html" class="btn btn-warning btn-lg me-2">단어 수정</a>
+          <a href="#" class="btn btn-danger btn-lg me-2">단어 삭제</a>
+          <a href="add.html" class="btn btn-primary btn-lg">단어 추가</a>
         </div>
       </div>
     </div>
@@ -96,11 +93,11 @@
             <td>관리자, 감독관</td>
             <td>
               <div class="d-flex justify-content-between" id="line-menu">
-                <a href="edit.html" class="btn btn-primary btn-lg me-2"
+                <a href="edit.html" class="btn btn-warning btn-lg me-2"
                   >단어 수정</a
                 >
-                <a href="#" class="btn btn-primary btn-lg me-2">단어 삭제</a>
-                <a href="detail.html" class="btn btn-primary btn-lg me-2"
+                <a href="#" class="btn btn-danger btn-lg me-2">단어 삭제</a>
+                <a href="detail.html" class="btn btn-secondary btn-lg me-2"
                   >상세 조회</a
                 >
               </div>
@@ -108,9 +105,31 @@
           </tr>
         </tbody>
       </table>
+      <nav aria-label="Page navigation" class="d-flex justify-content-center">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+    <footer
+      class="text-center text-lg-start bg-light text-muted navbar-fixed-bottom"
+      id="footer"
+    >
       <!-- Copyright -->
       <div
         class="text-center p-4"
